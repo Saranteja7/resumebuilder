@@ -1,0 +1,157 @@
+body {
+  margin:0;
+  background: url("../images/bg.png");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.tdiv {
+  background-color: rgba(0,0,0,0.8);
+  padding:10px;
+  text-align: center;
+  font-size: 20px;
+  font-variant: small-caps;
+  color: white;
+  width: 100%;
+  position: sticky;
+  top:0;
+}
+.bck {
+  text-decoration: none;
+  color: white;
+  float: left;
+  padding-right: 10px;
+  border-right: 1px solid white;
+}
+.bck:hover {
+  color:grey;
+}
+.maindiv {
+  width: 100%;
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.ldiv {
+  background: rgba(0,0,0,0.7);
+  width:25%;
+  margin-left: 2%;
+  height: auto;
+  position: fixed;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  color:white;
+}
+.rdiv {
+  background: rgba(0,0,0,0.7);
+  width:65%;
+  padding: 10px;
+  padding-left: 2%;
+  margin-left: 30%;
+  border-radius: 20px;
+}
+.hd {
+  color:white;
+}
+.txt {
+  text-indent: 5%;
+  color:rgb(200,200,200);
+}
+.txt1 {
+  text-indent: 2%;
+  color:rgb(200,200,200);
+}
+.txt2 {
+  color:rgba(200,200,200,0.7);
+}
+.simg {
+  margin-top: 5px;
+  border-radius: 50%;
+  width:50%;
+  border: 2px solid white;
+  box-shadow: 13px 10px 21px -3px rgba(0,0,0,0.75);
+}
+.edu {
+  width: 96%;
+  margin-left: 2%;
+}
+table{
+  width:100%;
+  border-spacing: 0;
+  overflow: hidden;
+}
+th,td {
+  width: 25%;
+}
+tr{
+  border-radius:15px;
+}
+td {
+  padding: 5px;
+  height:50px;
+  background: rgba(0,0,0,0.2);
+  text-align: center;
+  border-bottom: 0.4px solid grey;
+  color:rgba(255,255,255,0.6);
+}
+th {
+  padding: 7px;
+  height: 50px;
+  background: rgba(255,255,255,0.2);
+  color:rgba(255,255,255,0.9);
+  font-weight: bold;
+  font-size: 20px;
+}
+@media all and (max-width:826px) {
+  .maindiv{
+    display: block;
+    width: 90%;
+
+  }
+  .ldiv {
+    display: flex;
+    width:90%;
+    margin-left: 5%;
+    position:inherit;
+    overflow: hidden;
+  }
+  .rdiv {
+    margin: 0;
+    width: 100%;
+    margin-top: 2%;
+  }
+}
+
+@media all and (max-width:550px) {
+body {
+  background-size: cover;
+}
+  .maindiv{
+    display: block;
+    width: 90%;
+
+  }
+  .edu {
+
+    overflow-x: scroll;
+  }
+  .ldiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:90%;
+    margin-left: 5%;
+    position:inherit;
+    overflow: hidden;
+    text-align: center;
+  }
+  .simg {
+    margin-left: 25%;
+  }
+  .rdiv {
+    margin: 0;
+    width: 100%;
+    margin-top: 2%;
+  }
+}
