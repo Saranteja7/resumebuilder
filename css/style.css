@@ -1,9 +1,10 @@
 body {
-  margin:0;
+  margin:auto;
+  margin-left: 0;
   background: url("../images/bg.png");
-  background-size:cover;
   background-repeat: no-repeat;
-  width: 100%;
+  background-size: cover;
+  width: 98.5%;
 }
 .tdiv {
   background-color: rgba(0,0,0,0.8);
@@ -104,11 +105,12 @@ th {
   font-weight: bold;
   font-size: 20px;
 }
-@media all and (max-width:826px) {
+@media all and (max-width:926px) {
   .maindiv{
     display: block;
     width: 90%;
-
+    margin-left: 5%;
+    padding: 0;
   }
   .ldiv {
     display: flex;
@@ -121,6 +123,13 @@ th {
     margin: 0;
     width: 100%;
     margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .simg {
+    width:30%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 3%;
   }
 }
 
@@ -148,7 +157,7 @@ body {
     text-align: center;
   }
   .simg {
-    margin-left: 25%;
+    margin-left: 35%;
   }
   .rdiv {
     margin: 0;
