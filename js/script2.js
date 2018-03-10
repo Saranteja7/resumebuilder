@@ -46,7 +46,7 @@ function basic(basics) {
   sc2.appendChild(hr2);
   sc2.appendChild(h3_3);
   ldiv.appendChild(sc2);
-
+  console.log("Thank You");
 
 
 }
