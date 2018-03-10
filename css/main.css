@@ -48,6 +48,7 @@ body {
 }
 .s1:hover,.s2:hover,.s3:hover {
   box-shadow: 10px 10px 44px -5px rgba(0,0,0,0.75);
+  cursor: pointer;
 }
 .simg {
   width: 70%;

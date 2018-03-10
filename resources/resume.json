@@ -1,0 +1,99 @@
+{
+  "basics": {
+    "name": "P. V. N. V. Saran Teja",
+    "label": "Student",
+    "picture": "",
+    "email": "saranteja.me@gmail.com",
+    "phone": "9618022875",
+    "degree": "B.Tech",
+    "website": "",
+    "summary": "I'm a student.",
+    "highlights": null,
+    "location": {
+      "address": "36-8-4,Aachanta vaari street,kotak mahindra bank street,Innespeta,Rajahmundry",
+      "postalCode": "533101",
+      "city": "Rajahmundry",
+      "countryCode": "",
+      "region": "Andhra Pradesh"
+    },
+    "profiles": [
+      {
+        "network": "facebook",
+        "username": "saranteja",
+        "url": "www.facebook.com/saranteja.me"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "additionalWork": [
+    {
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "workLabel": "",
+  "additionalWorkLabel": "",
+  "education": [
+    {
+      "institution": "Sir C.R Reddy College of Engineering",
+      "area": "Eluru",
+      "studyType": "Engineering",
+      "startDate": "5-5-2015",
+      "endDate": "5-5-2019",
+      "gpa": "7.63",
+      "courses": [
+        ""
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "",
+      "summary": "",
+      "isbn": ""
+    }
+  ],
+  "additionalPublications": [
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "",
+      "summary": "",
+      "isbn": ""
+    }
+  ],
+  "publicationsLabel": "",
+  "additionalPublicationsLabel": "",
+  "skills": [
+    {
+      "name": "",
+      "level": "",
+      "keywords": [
+        ""
+      ]
+    }
+  ]
+}
