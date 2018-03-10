@@ -6,18 +6,6 @@ function page1() {
   // window.open("p1.html","_self");
   // document.location="p1.html";
 }
-function loadJSON(file,callback) {
-  var rawFile = new xmlHttpRequest();
-  rawFile.overRideMimeType("application/json");
-  rawFile.open("GET",file,true);
-  // open(method(get,post,head),url,async);
-  rawFile.onreadystatechange=function() {
-    if(rawFile.readystate===4 && rawFile.status="200") { //404 not found ------ 200 ok
-      callback(rawFile.responseText);
-    }
-  }
-  rawFile.send();
+function page2() {
+  window.location.href="p2.html";
 }
-loadJSON("../resources/resume.json",function(text) {
-  var data=JSON.parse(text);
-});
