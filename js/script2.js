@@ -11,7 +11,7 @@ function loadJSON(file,callback) {
   }
   rawFile.send();
 }
-loadJSON("/resources/resume.json",function(text) {
+loadJSON("https://saranteja7.github.io/resumebuilder/resources/resume.json",function(text) {
   var data=JSON.parse(text);
   // console.log(data.basics.profiles[0].network);
   basic(data.basics);
